@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-compress"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Compression manager (gzip/bzip2/xz/zstd) for SigmaOS filesystem and backup operations"
+upstream = []
+
+[contract]
+provides = ["component"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
